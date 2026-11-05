@@ -2,8 +2,6 @@
 
 Hands-on DevOps projects covering the core of the modern workflow: **automate delivery, observe what is running, and provision infrastructure as code.**
 
-Each project lives in its own repository with its own README, setup steps and tear-down instructions.
-
 ## Selected Projects
 
 | Project | What it shows | Stack |
