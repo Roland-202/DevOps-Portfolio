@@ -1,0 +1,12 @@
+route:
+  receiver: default
+  group_by: [alertname]
+  group_wait: 10s
+  repeat_interval: 1h
+
+receivers:
+  - name: default
+    # Swap for email_configs / slack_configs / webhook_configs to get real notifications.
+    webhook_configs:
+      - url: http://app:5000/   # placeholder endpoint
+        send_resolved: true
